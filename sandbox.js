@@ -8,7 +8,7 @@ class Stack {
   }
 
   pop() {
-    return this.stack.pop();
+    return this.stack.length ? this.stack.pop() : null;
   }
     
   peek() {
